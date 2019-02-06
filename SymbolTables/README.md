@@ -1,5 +1,7 @@
 # README SymbolTablesDemo
 
+Get SymbolTablesDemo.java or import the SymbolTables project to explore symbol tables and HashMap more!
+
 ## BEFORE RUNNING THE CODE:
 try stepping through just reading the code and answering the questions commented throughout as an exercise to gauge comprehension
 
