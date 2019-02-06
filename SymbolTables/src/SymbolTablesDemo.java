@@ -27,20 +27,19 @@ public class SymbolTablesDemo<Key, Value> {
      */
     public static void main(String[] args) {
 
+
+        //Try "Rubber Ducking" this code
+        //aka read through the code line by line explaining
+        //what is happening to an imaginary friend!
+
+
         //used args as a quick aside because I see
         //questions about args enough that it warranted
         //a brief introduction =]
         //
-        //you can run this code from the cml going to
-        //the pathname where you can find
-        //SymbolTablesDemo.java and typing:
-        //javac SymbolTablesDemo.java
-        //java SymbolTablesDemo FirstName1.LastName1 FirstName2.LastName2 FirstName3.LastName3
-        //ex:
-        //java SymbolTablesDemo Jon.Bush Scott.Dunning Mason.Cole
-        //or you can set your run time configurations from your ide.
-        //example in intellij: https://docs.google.com/document/d/17PImSAIgaGZRtODld291o0VFRAVO7HMwkno8kTm4t5c/edit?usp=sharing
-        //example in eclipse:  https://docs.google.com/document/d/1xsfQ6EQGJo2BwXlb7ZrMwtYiEwg4nCkhS8cAFJ8bWJg/edit?usp=sharing
+        //to execute the code view the README for SymbolTables:
+        //https://github.com/mcole18/SER222_SuppMats/blob/master/SymbolTables/README.md
+        //NOTE: do this to play around/verify you understand, don't jump to 'pressing play'
 
         String s1 = args[0]; //Jon.Bush
         String s2 = args[1]; //Scott.Dunning
