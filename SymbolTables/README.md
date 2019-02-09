@@ -2,7 +2,7 @@
 
 This demo is meant as supplementary material to be viewed following completion of the Symbol Table Module in SER222 and is in relation to this review lecture: https://youtu.be/O0vRXFCizPE 
 
-Get SymbolTablesDemo.java or import the SymbolTables project to explore symbol tables and HashMap more!
+Get SymbolTablesDemo.java or import the SymbolTables project to explore symbol tables, HashMap, and more!
 
 ## BEFORE RUNNING THE CODE:
 Try stepping through just reading the code and answering the questions commented throughout as an exercise to gauge comprehension
