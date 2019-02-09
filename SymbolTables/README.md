@@ -1,6 +1,6 @@
 # README SymbolTablesDemo
 
-This demo is meant as supplementary material to be viewed following completion of the Symbol Table Module in SER222 and is in relation to this review lecture: https://youtu.be/O0vRXFCizPE 
+This demo is meant as supplementary material to be viewed following completion of the Symbol Table Module in SER222 and is in relation to this review lecture: [[SER222] Exam 2: Symbol Tables Review - Tracing, Analysis, and Practice Exam Answers](https://youtu.be/O0vRXFCizPE)
 
 Get SymbolTablesDemo.java or import the SymbolTables project to explore symbol tables, HashMap, and more!
 
