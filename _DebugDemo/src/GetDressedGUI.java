@@ -73,6 +73,9 @@ public class GetDressedGUI extends JFrame {
      * Demo starts here.
      * Set a breakpoint on line 77. 'step over' all code except where comment
      * says to step in. Check out the Debugger window pane as you go.
+     *
+     * Remember, if you step in to a method you didn't mean to, you can use 'step out'
+     * to go back to the calling frame. 👍
      */
     public static void main(String[] args) throws InterruptedException {
         GetDressedGUI a = new GetDressedGUI(0); //create base layer in main frame
