@@ -1332,6 +1332,7 @@ class CounterClass implements Counter {
 
 
 
+
     private void oops() {
         throw new RuntimeException("where did this come from?");
     }

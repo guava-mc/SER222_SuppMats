@@ -6,8 +6,15 @@ public class ThisCodeWasMadeForSteppin {
     static int n = 0;
 
     public static void main(String[] args) {
-        if(args.length > 0)
+
+        String string = "this is a variable that belongs to main!";
+        try {
             n = Integer.parseInt(args[0]);
+        } catch (Exception e) {
+            System.out.println("must pass an integer value as first arg");
+            System.exit(1);
+        }
+
         myNums = new int[n];
 
         stepStepSTEP(n);
