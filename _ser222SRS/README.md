@@ -11,9 +11,9 @@ Anki decks are saved in anki packages .apkg.
 
 To import a .apkg you have on your computer, in your Anki Application go to\
 ```File > Import```\
-Select the .apkg you wish to import and 'wa-la'!
+Select the .apkg you wish, for example [Week1](ser222SRS_Week1.apkg), to import and 'wa-la'!
 
-For example [Week1](ser222SRS_Week1.apkg)
+
 
 ## Using Anki right
 
