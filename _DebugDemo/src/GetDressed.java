@@ -9,7 +9,7 @@ import java.io.IOException;
  * Visual representation of how stack frames relate to method calls
  * using clothing analogy in <link>vid2</link>
  */
-public class GetDressedGUI extends JFrame {
+public class GetDressed extends JFrame {
 
     JFrame frame;
     JPanel pane1;
@@ -24,7 +24,7 @@ public class GetDressedGUI extends JFrame {
     String[] stackImages = {"resources/baseMainFrameStack.png", "resources/sweaterStack.png", "resources/puffyStack.png"};
 
 
-    public GetDressedGUI (int i) {
+    public GetDressed(int i) {
         frame = new JFrame("Getting Dressed!");
         pane1 = new JPanel();
         pane2 = new JPanel();
@@ -78,28 +78,33 @@ public class GetDressedGUI extends JFrame {
      * to go back to the calling frame. 👍
      */
     public static void main(String[] args) throws InterruptedException {
-        GetDressedGUI a = new GetDressedGUI(0); //create base layer in main frame
+        GetDressed a = new GetDressed(0); //create base layer in main frame
         String myStacksClothes = setMessage(0);
+        String myThings = "";
         Thread.sleep(2000);
-        myStacksClothes = putOnSweater(1); //step in
+        myStacksClothes = putOnSweater(1, myThings); //step in
     }
 
-    public static String putOnSweater(int i) throws InterruptedException{
-        GetDressedGUI newLayer = new GetDressedGUI(i); //create visual of putOnSweater change
+    public static String putOnSweater(int i, String myThings) throws InterruptedException{
+        GetDressed newLayer = new GetDressed(i); //create visual of putOnSweater change
         String myStacksClothes = setMessage(i);
         Thread.sleep(2000);
 
-        myStacksClothes = putOnPuffyJacket(2); //step in
+        myThings = myThings + "keys wallet";
+
+        myStacksClothes = putOnPuffyJacket(2, myThings); //step in
 
         newLayer.removeLayer();
 
         return myStacksClothes;
     }
 
-    public static String putOnPuffyJacket(int i) throws InterruptedException{
-        GetDressedGUI newLayer = new GetDressedGUI(i); //create visual of putOnPuffyJacket frame
+    public static String putOnPuffyJacket(int i, String myThings) throws InterruptedException{
+        GetDressed newLayer = new GetDressed(i); //create visual of putOnPuffyJacket frame
         String myStacksClothes = setMessage(i);
         Thread.sleep(2000);
+
+        myThings = myThings + " phone";
 
         /*
             Notice at this point in the code, you have three frames in the debug window.
@@ -123,7 +128,7 @@ public class GetDressedGUI extends JFrame {
     //this could be used if you just wanted to call them all recursively in one method, but then
     //you wouldn't see the names in the stack trace while debugging.
     public static void getNewLayer(int i) throws InterruptedException{
-        GetDressedGUI newLayer = new GetDressedGUI(i);
+        GetDressed newLayer = new GetDressed(i);
         String myStacksClothes = setMessage(i);
         Thread.sleep(2000);
         if(++i < 3){
