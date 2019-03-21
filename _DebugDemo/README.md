@@ -1,5 +1,6 @@
-#README for DebugDemo 
-###by Mason Cole      			
+# README for DebugDemo
+
+### by Mason Cole			
 													       
 Youtube video link for Debugger Intro and Demo:	    	
    	[TODO](todo)									        
