@@ -37,12 +37,17 @@ class CounterClass implements Counter {
         if (n < 0)
             oops();
 
-        count = 0;
+        String counter = "";
         for(int i = n; i < n; i++){
-            count++;
+            if(counter.length() % 2 == 1 || counter.length() < 1)
+                counter += "foo";
+            else
+                counter += "bar";
+            count = counter.length() / 3;
             System.out.println("ln " + i + ": currentCount" + n);
         }
     }
+
 
 
 
