@@ -36,13 +36,15 @@ class CounterClassSolution implements Counter {
     public void countToN(int n) {
         if (n < 0)
             oops();
-
-        count = 0;
         for(int i = 0; i < n; i++){
-            count++;
             System.out.println("ln " + i + ": currentCount " + i);
         }
     }
+
+
+
+
+
 
 
 

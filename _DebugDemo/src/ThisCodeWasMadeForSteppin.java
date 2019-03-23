@@ -36,7 +36,11 @@ public class ThisCodeWasMadeForSteppin {
     }
 
     //print myNums array
-    private static void printNums(){
+    private static void printNums() {
+        if (myNums.length < 1){
+            System.out.println("No data, dawg.");
+        return;
+        }
         String numsString = "";
         for(Integer i : myNums){
             numsString += i + ", ";
