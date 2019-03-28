@@ -16,6 +16,8 @@ Select the apkg you wish, for example [ser222SRS__Week1.apkg](ser222SRS__Week1.a
 
 It is recommended that you put all the individual apkgs into the same deck instead of having them separated by week to randomize the information being displayed and enhance your learning.
 
+_Note:_ to download a single apkg from github go to the desired apkg and you should see a 'download' or 'raw' button that will allow you to grab the contents of that single file.
+
 
 ## Using Anki Right
 
