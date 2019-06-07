@@ -1,4 +1,4 @@
-#Details
+# Details
 
 This Practice Exam focuses on programming problems and is meant to provide questions similar to what you may see on the actual Exam.
 
@@ -10,9 +10,9 @@ There are 4 questions. Time limit 45 minutes. Have fun!
 
 Author: Mason Cole
 
-#Exam
+# Exam
 
-##Question1
+## Question1
 
 You are given a node that looks like this: 
 
@@ -32,7 +32,7 @@ You are told the node is the root of a BST, however, the person telling you is n
 
 What type of tree traversal: inOrder, preOder, postOrder, levelOrder, would be best for verifying the tree is a valid BST? Justify.
 
-##Question 2
+## Question 2
 
 Write a method using your answer from Q1 with a signature as seen below that returns a boolean to check if the Node really is the root of a valid BST [your solution should run in O(N)]:
 
@@ -44,7 +44,7 @@ public boolean isValidBST(Node root){
 
 _As always and as shown in lecture you can use helper methods if needed_
 
-##Question 3
+## Question 3
 
 Given:
 
@@ -79,7 +79,7 @@ From the structures covered in this Exam: BST, Hashtables, Undirected Graphs, an
 
 _Note: you can assume that the friends associations in a Friends object is bi-directional, as in, both people in the Friends object are friendly with the other person in the object. And that all friends are unique (there aren't two Rubens, there can be only one)_
 
-##Question 4
+## Question 4
 
 *Friendly Disclaimer*: The solution to this question requires a bit more work than a question you will find on the Exam. You should use the skills you've acquired in this class to still take a crack at it. You definitely have the tools needed to solve it and there is value in at least attempting it. If you are running out of time or getting a little lost try using pseudo-code templates to provide framework for a potential solution. 😅😅😅
 
@@ -109,13 +109,13 @@ Explanation:
 Because Ruben has 3 friends. Whereas Jon and Mason have 2. And poor Scott has 1.
 ```
 
-#Solutions
+# Solutions
 
-##Question 1 SOLUTION
+## Question 1 SOLUTION
 
 inOrder traversal because we would be able to see if the inOrder traversal represents an ascending sorted list.
 
-##Question 2 SOLUTION
+## Question 2 SOLUTION
 
 ```Java
 //There are many ways to solve this problem
@@ -149,7 +149,7 @@ public boolean isValidBST(Node root) {
         }
 ```
 
-##Question 3 SOLUTION
+## Question 3 SOLUTION
 
 Hashtable: you could iterate the List<Friends> and use a HashMap<String, Integer>
 
@@ -160,7 +160,7 @@ Note: As in the example solution for Q4, if you needed to account for repeating 
 
 Undirected Graph: if you let each friend represent a Vertex and every edge between two vertices represents a friendship connection, the graph would represent all connections and based on the number of adjacent vertices, you could determine who has the most friends.
 
-##Question 4 SOLUTION
+## Question 4 SOLUTION
 
 ```Java
 class Friends {
