@@ -2,8 +2,7 @@
 
 ### by Mason Cole			
 													       
-Youtube video link for Debugger Intro and Demo:	    	
-   	[TODO](todo)									        
+[Youtube video link for Debugger Intro and Demo](https://youtu.be/wvWhhfb5mBg)									        
  													       
 															
 Follow along with the src files by opening the project up in your IDE. 
